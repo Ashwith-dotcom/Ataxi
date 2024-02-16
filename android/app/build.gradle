@@ -1,6 +1,14 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+project.ext.vectoricons = [
+    iconFontNames: [ 'Ionicons.ttf','MaterialIcons.ttf', 'EvilIcons.ttf', 'AntDesign.ttf', 'MaterialCommunityIcons.ttf' , 'Entypo.ttf' ] // Specify font files
+]
+project.ext.react = [
+  enableHermes: false  // Remove or comment out this line
+]
+
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 
 /**
  * This is the configuration block to customize your React Native Android app.
