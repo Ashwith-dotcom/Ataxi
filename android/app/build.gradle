@@ -2,7 +2,7 @@ apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
 project.ext.vectoricons = [
-    iconFontNames: [ 'Ionicons.ttf','MaterialIcons.ttf', 'EvilIcons.ttf', 'AntDesign.ttf', 'MaterialCommunityIcons.ttf' , 'Entypo.ttf' ] // Specify font files
+    iconFontNames: [ 'Ionicons.ttf','MaterialIcons.ttf', 'EvilIcons.ttf', 'AntDesign.ttf', 'MaterialCommunityIcons.ttf' , 'Entypo.ttf','Feather.ttf' ] // Specify font files
 ]
 project.ext.react = [
   enableHermes: false  // Remove or comment out this line

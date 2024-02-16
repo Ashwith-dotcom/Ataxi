@@ -11,13 +11,18 @@ import Safety from './src/screens/Safety';
 import About from './src/screens/About';
 import Settings from './src/screens/Settings';
 import Preferences from './src/screens/Preferences';
+import Profile from './src/screens/Profile';
+import RideHistory from './src/screens/RideHistory';
+import EditProfile from './src/screens/EditProfile';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import OnBoarding2 from './src/screens/onBoardingScreens/OnBoardingScreen';
 const App = () => {
   return (
     <SafeAreaView style={styles.mainCont}>
     {/* <NavigationContainer>
       <AppNavigator/>
     </NavigationContainer> */}
-     <Preferences/>
+      <Home/>
     </SafeAreaView>
   )
 }
